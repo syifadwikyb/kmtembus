@@ -7,14 +7,14 @@
                 <img class="h-16 w-auto" src="{{ asset('assets/logo_kmtembus.png') }}" alt="Logo">
             </a>
         </div>
-        <div class="flex gap-x-12">
+        <div class="flex gap-x-6">
             <a href="/"
-                class="text-lg font-semibold text-gray-900 hover:text-orange-600 hover:underline transition-all duration-300">Beranda</a>
-            <a href="/recomendation"
-                class="text-lg font-semibold text-gray-900 hover:text-orange-600 hover:underline transition-all duration-300">Rekomendasi</a>
+                class="text-lg font-semibold text-gray-900 px-4 py-1 hover:rounded-md hover:bg-orange-500 hover:text-white  transition-all duration-300">Beranda</a>
+            <a href="/recomendations"
+                class="text-lg font-semibold text-gray-900 px-4 py-1 hover:rounded-md hover:bg-orange-500 hover:text-white  transition-all duration-300">Rekomendasi</a>
             <div class="relative inline-block">
                 <a href="#" id="activityButton"
-                    class="flex items-baseline space-x-2 text-lg font-semibold text-gray-900 hover:text-orange-600 hover:underline transition-all duration-300">
+                    class="flex items-baseline space-x-2 text-lg font-semibold text-gray-900 px-4 py-1 hover:rounded-md hover:bg-orange-500 hover:text-white  transition-all duration-300">
                     <span>Aktivitas</span>
                     <i id="iconArrow" class="fas fa-chevron-right text-sm"></i>
                 </a>
@@ -27,10 +27,10 @@
                 </div>
             </div>
             <a href="/fields-and-programs"
-                class="text-lg font-semibold text-gray-900 hover:text-orange-600 hover:underline transition-all duration-300">Bidang
+                class="text-lg font-semibold text-gray-900 px-4 py-1 hover:rounded-md hover:bg-orange-500 hover:text-white  transition-all duration-300">Bidang
                 & Program Kerja</a>
             <a href="/contact"
-                class="text-lg font-semibold text-gray-900 hover:text-orange-600 hover:underline transition-all duration-300">Kontak</a>
+                class="text-lg font-semibold text-gray-900 px-4 py-1 hover:rounded-md hover:bg-orange-500 hover:text-white  transition-all duration-300">Kontak</a>
         </div>
     </nav>
 </header>
