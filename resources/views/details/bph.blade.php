@@ -13,7 +13,7 @@
 <body class="mx-auto justify-around font-jakarta">
     <x-navbar></x-navbar>
 
-    <div class="container mx-auto max-w-7xl">
+    <div class="container mx-auto max-w-7xl mt-28">
         <div class="flex items-center">
             <div class="left-content flex-1">
                 <p class="text-4xl font-bold mb-3">BPH - Badan Pengurus Harian</p>
@@ -37,71 +37,136 @@
             </div>
         </div>
 
-        <div class="flex items-center justify-center min-h-80 bg-green-400 rounded-xl">        
-            <div class="relative w-full max-w-6xl">
-                <button id="scroll-left"
-                    class="absolute left-0 top-1/2 -translate-y-1/2 bg-gray-800 text-white p-3 rounded-full shadow hover:bg-gray-700 z-10">
-                    &#8592;
-                </button>
 
-                <div class="overflow-x-auto relative w-full scroll-smooth max-w-5xl mx-auto">
-                    <div class="flex items-center justify-between w-[150%] relative">
-                        <div class="absolute top-1/2 left-0 w-full h-1 bg-red-300 -translate-y-1/2 rounded-full"></div>
+        <p class="text-4xl font-bold mt-32 mb-3 text-center">Time Line Program Kerja</p>
+        <div class="flex items-center justify-center bg-green-400 rounded-xl overflow-hidden">
+            <div class="relative w-full min-h-96 max-w-6xl items-center flex">
+                <div class="overflow-x-auto relative w-full scroll-smooth">
+                    <div class="flex items-center justify-between w-full relative mb-6">
+                        <div
+                            class="absolute top-1/2 left-1/2 w-[140vw] -translate-x-1/2 -translate-y-1/2 bg-gray-800 h-2 rounded-full my-4">
+                        </div>
 
-                        <div class="flex flex-col relative mb-24">
-                            <div class="w-40 h-10 bg-gray-800 rounded-md">
-                                <p class="mt-2 text-sm text-center">Hari 1 Hari 1 Hari 1Hari 1Hari 1Hari 1Hari 1Hari 1</p>
+                        <div class="flex flex-col items-center mb-40">
+                            <div class="w-56 h-28 bg-gray-800 rounded-md flex flex-col items-center justify-center p-3">
+                                <p class="text-xl text-center text-white">Lomba Mobile Legends bang bang tembus</p>
+                                <p class="text-sm text-center text-white">Januari 2025</p>
                             </div>
                         </div>
 
-                        <div class="flex flex-col relative mt-24">
-                            <div class="w-40 h-10 bg-gray-800 rounded-md">
-                                <p class="mt-2 text-sm text-center">Hari 1 Hari 1 Hari 1Hari 1Hari 1Hari 1Hari 1Hari 1</p>
+                        <div class="flex flex-col items-center justify-center mt-52">
+                            <div class="w-56 h-28 bg-gray-800 rounded-md flex flex-col items-center justify-center p-3">
+                                <p class="text-xl text-white">Sosialisasi</p>
+                                <p class="text-sm text-white">Januari 2025</p>
                             </div>
                         </div>
 
-                        <div class="flex flex-col relative mb-24">
-                            <div class="w-40 h-10 bg-gray-800 rounded-md">
-                                <p class="mt-2 text-sm text-center">Hari 1 Hari 1 Hari 1Hari 1Hari 1Hari 1Hari 1Hari 1</p>
+                        <div class="flex flex-col items-center mb-40">
+                            <div class="w-56 h-28 bg-gray-800 rounded-md flex flex-col items-center justify-center p-3">
+                                <p class="text-xl text-center text-white">Lomba Mobile Legends bang bang tembus</p>
+                                <p class="text-sm text-center text-white">Januari 2025</p>
                             </div>
                         </div>
 
-                        <div class="flex flex-col relative mt-24">
-                            <div class="w-40 h-10 bg-gray-800 rounded-md">
-                                <p class="mt-2 text-sm text-center">Hari 1 Hari 1 Hari 1Hari 1Hari 1Hari 1Hari 1Hari 1</p>
+                        <div class="flex flex-col items-center justify-center mt-52">
+                            <div class="w-56 h-28 bg-gray-800 rounded-md flex flex-col items-center justify-center p-3">
+                                <p class="text-xl text-white">Sosialisasi</p>
+                                <p class="text-sm text-white">Januari 2025</p>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col items-center mb-40">
+                            <div class="w-56 h-28 bg-gray-800 rounded-md flex flex-col items-center justify-center p-3">
+                                <p class="text-xl text-center text-white">Lomba Mobile Legends bang bang tembus</p>
+                                <p class="text-sm text-center text-white">Januari 2025</p>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col items-center justify-center mt-52">
+                            <div class="w-56 h-28 bg-gray-800 rounded-md flex flex-col items-center justify-center p-3">
+                                <p class="text-xl text-white">Sosialisasi</p>
+                                <p class="text-sm text-white">Januari 2025</p>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col items-center mb-40">
+                            <div class="w-56 h-28 bg-gray-800 rounded-md flex flex-col items-center justify-center p-3">
+                                <p class="text-xl text-center text-white">Lomba Mobile Legends bang bang tembus</p>
+                                <p class="text-sm text-center text-white">Januari 2025</p>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col items-center justify-center mt-52">
+                            <div class="w-56 h-28 bg-gray-800 rounded-md flex flex-col items-center justify-center p-3">
+                                <p class="text-xl text-white">Sosialisasi</p>
+                                <p class="text-sm text-white">Januari 2025</p>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col items-center mb-40">
+                            <div class="w-56 h-28 bg-gray-800 rounded-md flex flex-col items-center justify-center p-3">
+                                <p class="text-xl text-center text-white">Lomba Mobile Legends bang bang tembus</p>
+                                <p class="text-sm text-center text-white">Januari 2025</p>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col items-center justify-center mt-52">
+                            <div class="w-56 h-28 bg-gray-800 rounded-md flex flex-col items-center justify-center p-3">
+                                <p class="text-xl text-white">Sosialisasi</p>
+                                <p class="text-sm text-white">Januari 2025</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            
-                <button id="scroll-right"
-                    class="absolute right-0 top-1/2 -translate-y-1/2 bg-gray-800 text-white p-3 rounded-full shadow hover:bg-gray-700 z-10">
-                    &#8594;
-                </button>
             </div>
         </div>
 
-        <x-footer></x-footer>
+        <p class="text-4xl font-bold mt-32 mb-3 text-center">Anggota</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center p-6">
+        <div class="w-64 bg-white rounded-lg shadow-2xl overflow-hidden">
+            <img class="w-full h-56 object-cover" src="https://via.placeholder.com/250" alt="Foto Profil">
+            <div class="p-4">
+                <h3 class="text-xl font-semibold text-gray-800">Syifa Dwiky Basamala basamala</h3>
+                <p class="text-lg text-gray-600">Jabatan</p>
+            </div>
+        </div>
+        <div class="w-64 bg-white rounded-lg shadow-2xl overflow-hidden">
+            <img class="w-full h-56 object-cover" src="https://via.placeholder.com/250" alt="Foto Profil">
+            <div class="p-4">
+                <h3 class="text-xl font-semibold text-gray-800">Syifa Dwiky Basamala basamala</h3>
+                <p class="text-lg text-gray-600">Jabatan</p>
+            </div>
+        </div>
+        <div class="w-64 bg-white rounded-lg shadow-2xl overflow-hidden">
+            <img class="w-full h-56 object-cover" src="https://via.placeholder.com/250" alt="Foto Profil">
+            <div class="p-4">
+                <h3 class="text-xl font-semibold text-gray-800">Syifa Dwiky Basamala basamala</h3>
+                <p class="text-lg text-gray-600">Jabatan</p>
+            </div>
+        </div>
+
+        <div class="w-64 bg-white rounded-lg shadow-2xl overflow-hidden">
+            <img class="w-full h-56 object-cover" src="https://via.placeholder.com/250" alt="Foto Profil">
+            <div class="p-4">
+                <h3 class="text-xl font-semibold text-gray-800">Syifa Dwiky Basamala basamala</h3>
+                <p class="text-lg text-gray-600">Jabatan</p>
+            </div>
+        </div>
+        <div class="w-64 bg-white rounded-lg shadow-2xl overflow-hidden">
+            <img class="w-full h-56 object-cover" src="https://via.placeholder.com/250" alt="Foto Profil">
+            <div class="p-4">
+                <h3 class="text-xl font-semibold text-gray-800">Syifa Dwiky Basamala basamala</h3>
+                <p class="text-lg text-gray-600">Jabatan</p>
+            </div>
+        </div>
+    </div>
+            
+
+
+
+        
+    </div>
+    <x-footer></x-footer>
 </body>
-<script>
-    // JavaScript untuk navigasi timeline
-    const timeline = document.querySelector('.overflow-x-auto');
-    const btnLeft = document.getElementById('scroll-left');
-    const btnRight = document.getElementById('scroll-right');
-
-    btnLeft.addEventListener('click', () => {
-        timeline.scrollBy({
-            left: -200,
-            behavior: 'smooth'
-        });
-    });
-
-    btnRight.addEventListener('click', () => {
-        timeline.scrollBy({
-            left: 200,
-            behavior: 'smooth'
-        });
-    });
-</script>
 
 </html>
