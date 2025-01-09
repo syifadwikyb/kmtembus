@@ -159,6 +159,20 @@
                     <p class="text-lg text-gray-600">Jabatan</p>
                 </div>
             </div>
+            <div class="w-64 bg-white rounded-lg shadow-2xl overflow-hidden">
+                <img class="w-full h-56 object-cover" src="https://via.placeholder.com/250" alt="Foto Profil">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold text-gray-800">Syifa Dwiky Basamala basamala</h3>
+                    <p class="text-lg text-gray-600">Jabatan</p>
+                </div>
+            </div>
+            <div class="w-64 bg-white rounded-lg shadow-2xl overflow-hidden">
+                <img class="w-full h-56 object-cover" src="https://via.placeholder.com/250" alt="Foto Profil">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold text-gray-800">Syifa Dwiky Basamala basamala</h3>
+                    <p class="text-lg text-gray-600">Jabatan</p>
+                </div>
+            </div>
         </div>
     </div>
     <x-footer></x-footer>
