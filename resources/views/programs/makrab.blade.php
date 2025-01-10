@@ -13,24 +13,27 @@
 <body class="mx-auto justify-around font-jakarta">
     <x-navbar></x-navbar>
 
-    <div class="container mx-auto max-w-7xl mt-28">
-        <div class="flex items-center">
-            <div class="left-content flex-1">
-                <p class="text-4xl font-bold mb-3">Makrab - Malam Keakraban</p>
-                <p class="text-2xl mb-3">KM TEMBUS atau Keluarga Mahasiswa Tembalang Kudus merupakan Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit. Fusce gravida pharetra tortor, non consequat ex efficitur
-                    vel. Curabitur at risus et quam egestas scelerisque. Proin condimentum,</p>
-
+    <div class="container mx-auto max-w-7xl">
+        <div class="hero flex flex-col lg:flex-row items-center">
+            <div class="right-content flex justify-center lg:order-2 mb-6 lg:mb-0 px-4 flex-col items-center">
+                <img 
+                    class="w-full h-auto mb-6" 
+                    src="{{ asset('assets/WhatsApp Image 2025-01-10 at 23.45.58_1169125a.jpg') }}" 
+                    alt="Logo Keluarga Mahasiswa Tembalang Kudus">
             </div>
 
-            <div class="right-content flex-1 flex justify-center">
-                <div class="flex flex-col items-center">
-                    <img class="w-3/5 mb-6" src="{{ asset('assets/logo_kmtembus.png') }}" alt="Logo KM TEMBUS">
-                </div>
+            <div class="left-content text-center lg:text-left px-4 lg:order-1">
+                <p class="text-lg md:text-xl lg:text-2xl mb-3">Makrab - Malam Keakraban</p>
+                <p class="text-base md:text-lg lg:text-xl italic">
+                    "KM TEMBUS atau Keluarga Mahasiswa Tembalang Kudus merupakan Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Fusce gravida pharetra tortor, non consequat ex efficitur vel. Curabitur at risus
+                    et quam egestas scelerisque. Proin condimentum."
+                </p>
             </div>
         </div>
     </div>
-
+    
     <x-footer></x-footer>
 </body>
+
 </html>
