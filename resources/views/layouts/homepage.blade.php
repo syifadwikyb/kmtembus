@@ -8,6 +8,7 @@
     @vite('resources/css/app.css')
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('build/assets/app-Fr5ed59H.css') }}">
 </head>
 
 <body class="mx-auto justify-around font-jakarta bg-secondary text-primary">
@@ -78,17 +79,23 @@
         <div class="documentations w-full overflow-hidden mt-10">
             <div class="flex flex-col gap-4">
                 <div id="scrollRowLeft" class="flex gap-4 whitespace-nowrap">
-                    <img src="https://via.placeholder.com/240x135" alt="Image 6" class="w-48 h-28 lg:w-60 lg:h-36 object-cover">1
-                    <img src="https://via.placeholder.com/240x135" alt="Image 7" class="w-48 h-28 lg:w-60 lg:h-36 object-cover">2
-                    <img src="https://via.placeholder.com/240x135" alt="Image 8" class="w-48 h-28 lg:w-60 lg:h-36 object-cover">3
-                    <img src="https://via.placeholder.com/240x135" alt="Image 9" class="w-48 h-28 lg:w-60 lg:h-36 object-cover">4
-                    <img src="https://via.placeholder.com/240x135" alt="Image 10" class="w-48 h-28 lg:w-60 lg:h-36 object-cover">5
+                    <img src="https://via.placeholder.com/240x135" alt="Image 6"
+                        class="w-48 h-28 lg:w-60 lg:h-36 object-cover">1
+                    <img src="https://via.placeholder.com/240x135" alt="Image 7"
+                        class="w-48 h-28 lg:w-60 lg:h-36 object-cover">2
+                    <img src="https://via.placeholder.com/240x135" alt="Image 8"
+                        class="w-48 h-28 lg:w-60 lg:h-36 object-cover">3
+                    <img src="https://via.placeholder.com/240x135" alt="Image 9"
+                        class="w-48 h-28 lg:w-60 lg:h-36 object-cover">4
+                    <img src="https://via.placeholder.com/240x135" alt="Image 10"
+                        class="w-48 h-28 lg:w-60 lg:h-36 object-cover">5
                 </div>
             </div>
         </div>
     </div>
 
     <x-footer></x-footer>
+    <script src="{{ asset('build/assets/app-Xaw6OIO1.js') }}"></script>
 </body>
 @vite('resources/js/marquee.js')
 

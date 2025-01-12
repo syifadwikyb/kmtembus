@@ -8,6 +8,7 @@
     @vite('resources/css/app.css')
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="{{ asset('build/assets/app-Fr5ed59H.css') }}">
 </head>
 
 <body class="mx-auto justify-around font-jakarta bg-secondary text-primary">
@@ -156,6 +157,7 @@
     </div>
     
     <x-footer></x-footer>
+    <script src="{{ asset('build/assets/app-Xaw6OIO1.js') }}"></script>
 </body>
 
 </html>
