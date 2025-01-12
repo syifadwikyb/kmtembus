@@ -115,7 +115,7 @@
         <p class="text-4xl font-bold mt-32 mb-3 text-center">Anggota</p>
         <div class="grid grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center p-6">
             <div class="w-48 md:w-56 lg:w-64 bg-white rounded-lg shadow-2xl overflow-hidden border-primary border-2">
-                <img class="w-full h-40 md:h-48 lg:h-56 object-cover" src="https://via.placeholder.com/250"
+                <img class="w-full h-40 md:h-48 lg:h-56 object-cover" src="{{ asset('images/WhatsApp Image 2025-01-10 at 23.45.58_1169125a.jpg') }}"
                     alt="Foto Profil">
                 <div class="p-2 md:p-3 lg:p-4">
                     <h3 class="text-sm md:text-lg lg:text-xl font-semibold text-primary">Syifa Dwiky Basamala basamala
@@ -124,7 +124,7 @@
                 </div>
             </div>
             <div class="w-48 md:w-56 lg:w-64 bg-white rounded-lg shadow-2xl overflow-hidden border-primary border-2">
-                <img class="w-full h-40 md:h-48 lg:h-56 object-cover" src="https://via.placeholder.com/250"
+                <img class="w-full h-40 md:h-48 lg:h-56 object-cover" src="{{ asset('images/WhatsApp Image 2025-01-10 at 23.45.58_1169125a.jpg') }}"
                     alt="Foto Profil">
                 <div class="p-2 md:p-3 lg:p-4">
                     <h3 class="text-sm md:text-lg lg:text-xl font-semibold text-primary">Syifa Dwiky Basamala basamala
@@ -133,7 +133,7 @@
                 </div>
             </div>
             <div class="w-48 md:w-56 lg:w-64 bg-white rounded-lg shadow-2xl overflow-hidden border-primary border-2">
-                <img class="w-full h-40 md:h-48 lg:h-56 object-cover" src="https://via.placeholder.com/250"
+                <img class="w-full h-40 md:h-48 lg:h-56 object-cover" src="{{ asset('images/WhatsApp Image 2025-01-10 at 23.45.58_1169125a.jpg') }}"
                     alt="Foto Profil">
                 <div class="p-2 md:p-3 lg:p-4">
                     <h3 class="text-sm md:text-lg lg:text-xl font-semibold text-primary">Syifa Dwiky Basamala basamala
@@ -143,7 +143,7 @@
             </div>
 
             <div class="w-48 md:w-56 lg:w-64 bg-white rounded-lg shadow-2xl overflow-hidden border-primary border-2">
-                <img class="w-full h-40 md:h-48 lg:h-56 object-cover" src="https://via.placeholder.com/250"
+                <img class="w-full h-40 md:h-48 lg:h-56 object-cover" src="{{ asset('images/WhatsApp Image 2025-01-10 at 23.45.58_1169125a.jpg') }}"
                     alt="Foto Profil">
                 <div class="p-2 md:p-3 lg:p-4">
                     <h3 class="text-sm md:text-lg lg:text-xl font-semibold text-primary">Syifa Dwiky Basamala basamala
@@ -152,7 +152,7 @@
                 </div>
             </div>
             <div class="w-48 md:w-56 lg:w-64 bg-white rounded-lg shadow-2xl overflow-hidden border-primary border-2">
-                <img class="w-full h-40 md:h-48 lg:h-56 object-cover" src="https://via.placeholder.com/250"
+                <img class="w-full h-40 md:h-48 lg:h-56 object-cover" src="{{ asset('images/WhatsApp Image 2025-01-10 at 23.45.58_1169125a.jpg') }}"
                     alt="Foto Profil">
                 <div class="p-2 md:p-3 lg:p-4">
                     <h3 class="text-sm md:text-lg lg:text-xl font-semibold text-primary">Syifa Dwiky Basamala basamala
@@ -161,7 +161,7 @@
                 </div>
             </div>
             <div class="w-48 md:w-56 lg:w-64 bg-white rounded-lg shadow-2xl overflow-hidden border-primary border-2">
-                <img class="w-full h-40 md:h-48 lg:h-56 object-cover" src="https://via.placeholder.com/250"
+                <img class="w-full h-40 md:h-48 lg:h-56 object-cover" src="{{ asset('images/WhatsApp Image 2025-01-10 at 23.45.58_1169125a.jpg') }}"
                     alt="Foto Profil">
                 <div class="p-2 md:p-3 lg:p-4">
                     <h3 class="text-sm md:text-lg lg:text-xl font-semibold text-primary">Syifa Dwiky Basamala basamala
