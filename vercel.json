@@ -1,18 +1,9 @@
 {
     "version": 2,
-    "builds": [
-      {
-        "src": "public/**",
-        "use": "@vercel/static"
-      },
-      {
-        "src": "public/index.php",
-        "use": "@vercel/php"
-      }
-    ],
     "routes": [
-      { "src": "/(.*)", "dest": "/public/index.php" }
+        { "src": "/(.*)", "dest": "/public/index.php" }
     ],
-    "buildCommand": "curl -sS https://getcomposer.org/installer | php && php composer.phar install --no-dev --optimize-autoloader"
-  }
-  
+    "public": true,
+    "buildCommand": "composer install --no-dev --optimize-autoloader",
+    "outputDirectory": "public"
+}
