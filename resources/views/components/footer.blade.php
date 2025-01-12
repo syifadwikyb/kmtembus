@@ -4,16 +4,16 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-5 p-5">            
                 <div class="col-span-1 md:col-span-1 lg:col-span-4">
                     <div class="flex gap-3 mb-6 justify-center md:justify-start">
-                        <img class="w-1/6 lg:w-1/4" src="{{ asset('assets/logo_kmtembus.png') }}" alt="Logo KM TEMBUS">
-                        <img class="w-1/6 lg:w-1/4" src="{{ asset('assets/logo_kmtembus.png') }}" alt="Logo KM TEMBUS">
-                        <img class="w-1/6 lg:w-1/4" src="{{ asset('assets/logo_kmtembus.png') }}" alt="Logo KM TEMBUS">
+                        <img class="w-1/6 lg:w-1/4" src="{{ asset('images/logo_kmtembus.png') }}" alt="Logo KM TEMBUS">
+                        <img class="w-1/6 lg:w-1/4" src="{{ asset('images/logo_kmtembus.png') }}" alt="Logo KM TEMBUS">
+                        <img class="w-1/6 lg:w-1/4" src="{{ asset('images/logo_kmtembus.png') }}" alt="Logo KM TEMBUS">
                     </div>
                     <div class="flex flex-col text-center md:text-left">
                         <p class="text-lg md:text-2xl font-bold mb-3 text-white">Ikuti</p>
                         <div class="flex gap-4 justify-center md:justify-start">
-                            <img class="w-1/12 lg:w-1/6" src="{{ asset('assets/logo_kmtembus.png') }}" alt="Logo 1">
-                            <img class="w-1/12 lg:w-1/6" src="{{ asset('assets/logo_kmtembus.png') }}" alt="Logo 2">
-                            <img class="w-1/12 lg:w-1/6" src="{{ asset('assets/logo_kmtembus.png') }}" alt="Logo 3">
+                            <img class="w-1/12 lg:w-1/6" src="{{ asset('images/logo_kmtembus.png') }}" alt="Logo 1">
+                            <img class="w-1/12 lg:w-1/6" src="{{ asset('images/logo_kmtembus.png') }}" alt="Logo 2">
+                            <img class="w-1/12 lg:w-1/6" src="{{ asset('images/logo_kmtembus.png') }}" alt="Logo 3">
                         </div>
                     </div>
                 </div>

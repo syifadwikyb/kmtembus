@@ -8,7 +8,7 @@
     @vite('resources/css/app.css')
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('build/assets/app-Fr5ed59H.css') }}">
+    <link rel="stylesheet" href="{{ asset('build/images/app-Fr5ed59H.css') }}">
 </head>
 
 <body class="mx-auto justify-around font-jakarta bg-secondary text-primary">
@@ -18,12 +18,12 @@
         <div class="hero flex flex-col lg:flex-row items-center">
             <div class="right-content flex-1 flex justify-center lg:order-2 mb-6 lg:mb-0 px-4">
                 <div class="flex flex-col items-center">
-                    <img class="w-1/2 md:w-2/5 lg:w-3/5 mb-6" src="{{ asset('assets/logo_kmtembus.png') }}"
+                    <img class="w-1/2 md:w-2/5 lg:w-3/5 mb-6" src="{{ asset('images/logo_kmtembus.png') }}"
                         alt="Logo KM TEMBUS">
                     <div class="flex gap-4 justify-center">
-                        <img class="w-12 md:w-16 lg:w-1/6" src="{{ asset('assets/logo_kmtembus.png') }}" alt="Logo 1">
-                        <img class="w-12 md:w-16 lg:w-1/6" src="{{ asset('assets/logo_kmtembus.png') }}" alt="Logo 2">
-                        <img class="w-12 md:w-16 lg:w-1/6" src="{{ asset('assets/logo_kmtembus.png') }}" alt="Logo 3">
+                        <img class="w-12 md:w-16 lg:w-1/6" src="{{ asset('images/logo_kmtembus.png') }}" alt="Logo 1">
+                        <img class="w-12 md:w-16 lg:w-1/6" src="{{ asset('images/logo_kmtembus.png') }}" alt="Logo 2">
+                        <img class="w-12 md:w-16 lg:w-1/6" src="{{ asset('images/logo_kmtembus.png') }}" alt="Logo 3">
                     </div>
                 </div>
             </div>
@@ -44,7 +44,7 @@
                 </p>
             </div>
             <div class="right-content hidden lg:flex justify-center px-4 flex-1">
-                <img class="w-1/2 md:w-2/5 lg:w-3/5 max-w-full h-auto" src="{{ asset('assets/logo_kmtembus.png') }}"
+                <img class="w-1/2 md:w-2/5 lg:w-3/5 max-w-full h-auto" src="{{ asset('images/logo_kmtembus.png') }}"
                     alt="Logo KM TEMBUS">
             </div>
         </div>
@@ -79,15 +79,15 @@
         <div class="documentations w-full overflow-hidden mt-10">
             <div class="flex flex-col gap-4">
                 <div id="scrollRowLeft" class="flex gap-4 whitespace-nowrap">
-                    <img src="https://via.placeholder.com/240x135" alt="Image 6"
+                    <img src="{{ asset('images/WhatsApp Image 2025-01-10 at 23.45.58_1169125a.jpg') }}" alt="Image 6"
                         class="w-48 h-28 lg:w-60 lg:h-36 object-cover">1
-                    <img src="https://via.placeholder.com/240x135" alt="Image 7"
+                    <img src="{{ asset('images/WhatsApp Image 2025-01-10 at 23.45.58_1169125a.jpg') }}" alt="Image 7"
                         class="w-48 h-28 lg:w-60 lg:h-36 object-cover">2
-                    <img src="https://via.placeholder.com/240x135" alt="Image 8"
+                    <img src="{{ asset('images/WhatsApp Image 2025-01-10 at 23.45.58_1169125a.jpg') }}" alt="Image 8"
                         class="w-48 h-28 lg:w-60 lg:h-36 object-cover">3
-                    <img src="https://via.placeholder.com/240x135" alt="Image 9"
+                    <img src="{{ asset('images/WhatsApp Image 2025-01-10 at 23.45.58_1169125a.jpg') }}" alt="Image 9"
                         class="w-48 h-28 lg:w-60 lg:h-36 object-cover">4
-                    <img src="https://via.placeholder.com/240x135" alt="Image 10"
+                    <img src="{{ asset('images/WhatsApp Image 2025-01-10 at 23.45.58_1169125a.jpg') }}" alt="Image 10"
                         class="w-48 h-28 lg:w-60 lg:h-36 object-cover">5
                 </div>
             </div>
@@ -95,7 +95,7 @@
     </div>
 
     <x-footer></x-footer>
-    <script src="{{ asset('build/assets/app-Xaw6OIO1.js') }}"></script>
+    <script src="{{ asset('build/images/app-Xaw6OIO1.js') }}"></script>
 </body>
 @vite('resources/js/marquee.js')
 

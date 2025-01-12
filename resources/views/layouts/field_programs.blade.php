@@ -8,7 +8,7 @@
     @vite('resources/css/app.css')
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('build/assets/app-Fr5ed59H.css') }}">
+    <link rel="stylesheet" href="{{ asset('build/images/app-Fr5ed59H.css') }}">
 </head>
 
 <body class="mx-auto justify-around font-jakarta bg-secondary text-primary">
@@ -29,7 +29,7 @@
                 <div
                     class="w-48 md:w-56 lg:w-64 bg-white rounded-lg shadow-2xl overflow-hidden border-primary border-2">
                     <img class="w-full h-40 md:h-48 lg:h-56 object-cover"
-                        src="{{ asset('assets/WhatsApp Image 2025-01-10 at 23.45.58_1169125a.jpg') }}"
+                        src="{{ asset('images/WhatsApp Image 2025-01-10 at 23.45.58_1169125a.jpg') }}"
                         alt="Foto Profil">
                     <div class="p-2 md:p-3 lg:p-4">
                         <h3 class="text-sm md:text-lg lg:text-xl font-semibold">BPH-Badan Pengurus Harian

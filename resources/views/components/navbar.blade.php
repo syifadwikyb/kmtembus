@@ -4,7 +4,7 @@
     <nav class="container mx-auto flex items-center justify-between p-6" aria-label="Global">
         <div class="flex lg:flex-1">
             <a href="/">
-                <img class="h-12 w-auto md:h-14 lg:h-16" src="{{ asset('assets/logo_kmtembus.png') }}" alt="Logo">
+                <img class="h-12 w-auto md:h-14 lg:h-16" src="{{ asset('images/logo_kmtembus.png') }}" alt="Logo">
             </a>
         </div>
         <button id="menuToggle" class="lg:hidden text-2xl focus:outline-none">

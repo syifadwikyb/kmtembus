@@ -8,7 +8,7 @@
     @vite('resources/css/app.css')
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="{{ asset('build/assets/app-Fr5ed59H.css') }}">
+        <link rel="stylesheet" href="{{ asset('build/images/app-Fr5ed59H.css') }}">
 </head>
 
 <body class="mx-auto justify-around font-jakarta bg-secondary text-primary">
@@ -36,7 +36,7 @@
             
             <div class="right-content flex justify-center w-full lg:flex-1 order-1 lg:order-none mb-6 lg:mb-0">
                 <div class="flex flex-col items-center">
-                    <img class="w-full lg:w-3/4" src="{{ asset('assets/WhatsApp Image 2025-01-10 at 23.45.58_1169125a.jpg') }}"
+                    <img class="w-full lg:w-3/4" src="{{ asset('images/WhatsApp Image 2025-01-10 at 23.45.58_1169125a.jpg') }}"
                         alt="Logo KM TEMBUS">
                 </div>
             </div>
@@ -157,7 +157,7 @@
     </div>
     
     <x-footer></x-footer>
-    <script src="{{ asset('build/assets/app-Xaw6OIO1.js') }}"></script>
+    <script src="{{ asset('build/images/app-Xaw6OIO1.js') }}"></script>
 </body>
 
 </html>
