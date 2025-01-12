@@ -8,7 +8,7 @@
     "routes": [
         { 
             "src": "/images/(.*)", 
-            "dest": "/public/images/" 
+            "dest": "/public/images/$1" 
         },
         { 
             "src": "/(.*)", 
@@ -29,5 +29,6 @@
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
     },
+    "buildCommand": "curl -sS https://getcomposer.org/installer | php && php composer.phar install --no-dev --optimize-autoloader",
     "outputDirectory": "public"
 }
