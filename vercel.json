@@ -1,9 +1,9 @@
 {
-    "version": 2,
-    "routes": [
-        { "src": "/(.*)", "dest": "/public/index.php" }
+    "builds": [
+        {
+            "src": "public/**",
+            "use": "@vercel/static"
+        }
     ],
-    "public": true,
-    "buildCommand": "composer install --no-dev --optimize-autoloader",
-    "outputDirectory": "public"
+    "routes": [{ "src": "/(.*)", "dest": "/index.php" }]
 }
