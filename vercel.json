@@ -1,33 +1,40 @@
 {
     "version": 2,
+    "framework": null,
+    "public": true,
     "functions": {
-        "api/index.php": { 
-            "runtime": "vercel-php@0.6.0" 
-        }
+      "api/index.php": {
+        "runtime": "vercel-php@0.6.0"
+      }
     },
     "routes": [
-        { 
-            "src": "/images/(.*)", 
-            "dest": "/public/images/$1" 
-        },
-        { 
-            "src": "/(.*)", 
-            "dest": "/api/index.php" 
-        }
+      {
+        "src": "/images/(.*)",
+        "dest": "/public/images/"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/api/index.php"
+      }
     ],
+    "buildCommand": "cp storage/database/database.sqlite /var/task/storage/database/database.sqlite && composer install --no-dev --optimize-autoloader && vite build",
+    "outputDirectory": "public",
     "env": {
-        "APP_ENV": "production",
-        "APP_DEBUG": "false",
-        "APP_URL": "https://kmtembus.vercel.app/",
-        "APP_CONFIG_CACHE": "/tmp/config.php",
-        "APP_EVENTS_CACHE": "/tmp/events.php",
-        "APP_PACKAGES_CACHE": "/tmp/packages.php",
-        "APP_ROUTES_CACHE": "/tmp/routes.php",
-        "APP_SERVICES_CACHE": "/tmp/services.php",
-        "VIEW_COMPILED_PATH": "/tmp",
-        "CACHE_DRIVER": "array",
-        "LOG_CHANNEL": "stderr",
-        "SESSION_DRIVER": "cookie"
-    },
-    "outputDirectory": "public"
-}
+      "APP_ENV": "production",
+      "APP_DEBUG": "false",
+      "APP_URL": "https://kmtembus.vercel.app/",
+      "APP_KEY": "base64:huT7oPgraGk1q3l3Zt1oDp5cxcwcxZ4incfgoqDfIQk=",
+      "APP_CONFIG_CACHE": "/tmp/config.php",
+      "APP_EVENTS_CACHE": "/tmp/events.php",
+      "APP_PACKAGES_CACHE": "/tmp/packages.php",
+      "APP_ROUTES_CACHE": "/tmp/routes.php",
+      "APP_SERVICES_CACHE": "/tmp/services.php",
+      "VIEW_COMPILED_PATH": "/tmp",
+      "CACHE_DRIVER": "array",
+      "LOG_CHANNEL": "stderr",
+      "SESSION_DRIVER": "cookie",
+      "DB_CONNECTION": "sqlite",
+      "DB_DATABASE": "/var/task/storage/database/database.sqlite"
+    }
+  }
+  
