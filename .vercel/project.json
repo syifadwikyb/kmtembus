@@ -1,15 +1,1 @@
-{
-  "projectId": "prj_vfH9IOTnRnOqZi5GOmKgmMRPqzPd",
-  "orgId": "team_vkfRSvo7dQKHaukFaa2RC2Fc",
-  "settings": {
-    "createdAt": 1736707376869,
-    "framework": "vite",
-    "devCommand": null,
-    "installCommand": null,
-    "buildCommand": "composer install --no-dev --optimize-autoloader",
-    "outputDirectory": "public",
-    "rootDirectory": null,
-    "directoryListing": false,
-    "nodeVersion": "22.x"
-  }
-}
+{"projectId":"prj_XGGD8t4bW7ivrhy4FddGhpq5RXkC","orgId":"team_vkfRSvo7dQKHaukFaa2RC2Fc"}
