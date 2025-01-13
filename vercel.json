@@ -10,14 +10,18 @@
     "routes": [
       {
         "src": "/images/(.*)",
-        "dest": "/public/images/"
+        "dest": "/public/images/$1"
+      },
+      {
+        "src": "/build/(.*)",
+        "dest": "/public/build/$1"
       },
       {
         "src": "/(.*)",
         "dest": "/api/index.php"
       }
     ],
-    "buildCommand": "cp storage/database/database.sqlite /var/task/storage/database/database.sqlite && composer install --no-dev --optimize-autoloader && vite build",
+    "buildCommand": "cp storage/database/database.sqlite /var/task/storage/database/database.sqlite && composer install --no-dev --optimize-autoloader && npm install && npm run build",
     "outputDirectory": "public",
     "env": {
       "APP_ENV": "production",
