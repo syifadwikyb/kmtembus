@@ -30,7 +30,7 @@
                     class="w-48 md:w-56 lg:w-64 bg-white rounded-lg shadow-2xl overflow-hidden border-primary border-2">
                     <img class="w-full h-40 md:h-48 lg:h-56 object-cover"
                         src="{{ asset('images/WhatsApp Image 2025-01-10 at 23.45.58_1169125a.jpg') }}"
-                        alt="Foto Profil">
+                        >
                     <div class="p-2 md:p-3 lg:p-4">
                         <h3 class="text-sm md:text-lg lg:text-xl font-semibold">BPH-Badan Pengurus Harian
                         </h3>
@@ -41,7 +41,7 @@
                 <div
                     class="w-48 md:w-56 lg:w-64 bg-white rounded-lg shadow-2xl overflow-hidden border-primary border-2">
                     <img class="w-full h-40 md:h-48 lg:h-56 object-cover" src="{{ asset('images/WhatsApp Image 2025-01-10 at 23.45.58_1169125a.jpg') }}"
-                        alt="Foto Profil">
+                        >
                     <div class="p-2 md:p-3 lg:p-4">
                         <h3 class="text-sm md:text-lg lg:text-xl font-semibold">PI-Pengembangan Internal
                         </h3>
@@ -52,7 +52,7 @@
                 <div
                     class="w-48 md:w-56 lg:w-64 bg-white rounded-lg shadow-2xl overflow-hidden border-primary border-2">
                     <img class="w-full h-40 md:h-48 lg:h-56 object-cover" src="{{ asset('images/WhatsApp Image 2025-01-10 at 23.45.58_1169125a.jpg') }}"
-                        alt="Foto Profil">
+                        >
                     <div class="p-2 md:p-3 lg:p-4">
                         <h3 class="text-sm md:text-lg lg:text-xl font-semibold">Sosmas-Sosial Masyarakat
                         </h3>
@@ -63,7 +63,7 @@
                 <div
                     class="w-48 md:w-56 lg:w-64 bg-white rounded-lg shadow-2xl overflow-hidden border-primary border-2">
                     <img class="w-full h-40 md:h-48 lg:h-56 object-cover" src="{{ asset('images/WhatsApp Image 2025-01-10 at 23.45.58_1169125a.jpg') }}"
-                        alt="Foto Profil">
+                        >
                     <div class="p-2 md:p-3 lg:p-4">
                         <h3 class="text-sm md:text-lg lg:text-xl font-semibold">RE-Relasi Eksternal</h3>
                     </div>
@@ -73,7 +73,7 @@
                 <div
                     class="w-48 md:w-56 lg:w-64 bg-white rounded-lg shadow-2xl overflow-hidden border-primary border-2">
                     <img class="w-full h-40 md:h-48 lg:h-56 object-cover" src="{{ asset('images/WhatsApp Image 2025-01-10 at 23.45.58_1169125a.jpg') }}"
-                        alt="Foto Profil">
+                        >
                     <div class="p-2 md:p-3 lg:p-4">
                         <h3 class="text-sm md:text-lg lg:text-xl font-semibold">Mikat-Minat dan Bakat</h3>
                     </div>
@@ -83,7 +83,7 @@
                 <div
                     class="w-48 md:w-56 lg:w-64 bg-white rounded-lg shadow-2xl overflow-hidden border-primary border-2">
                     <img class="w-full h-40 md:h-48 lg:h-56 object-cover" src="{{ asset('images/WhatsApp Image 2025-01-10 at 23.45.58_1169125a.jpg') }}"
-                        alt="Foto Profil">
+                        >
                     <div class="p-2 md:p-3 lg:p-4">
                         <h3 class="text-sm md:text-lg lg:text-xl font-semibold">KWU-Kewirausahaan</h3>
                     </div>
@@ -105,7 +105,7 @@
                 <div
                     class="w-48 md:w-56 lg:w-64 bg-white rounded-lg shadow-2xl overflow-hidden border-primary border-2">
                     <img class="w-full h-40 md:h-48 lg:h-56 object-cover" src="{{ asset('images/WhatsApp Image 2025-01-10 at 23.45.58_1169125a.jpg') }}"
-                        alt="Foto Profil">
+                        >
                     <div class="p-2 md:p-3 lg:p-4">
                         <h3 class="text-sm md:text-lg lg:text-xl font-semibold">Makrab-Malam Keakraban
                         </h3>
@@ -116,7 +116,7 @@
                 <div
                     class="w-48 md:w-56 lg:w-64 bg-white rounded-lg shadow-2xl overflow-hidden border-primary border-2">
                     <img class="w-full h-40 md:h-48 lg:h-56 object-cover" src="{{ asset('images/WhatsApp Image 2025-01-10 at 23.45.58_1169125a.jpg') }}"
-                        alt="Foto Profil">
+                        >
                     <div class="p-2 md:p-3 lg:p-4">
                         <h3 class="text-sm md:text-lg lg:text-xl font-semibold">Makrab-Malam Keakraban
                         </h3>
@@ -127,7 +127,7 @@
                 <div
                     class="w-48 md:w-56 lg:w-64 bg-white rounded-lg shadow-2xl overflow-hidden border-primary border-2">
                     <img class="w-full h-40 md:h-48 lg:h-56 object-cover" src="{{ asset('images/WhatsApp Image 2025-01-10 at 23.45.58_1169125a.jpg') }}"
-                        alt="Foto Profil">
+                        >
                     <div class="p-2 md:p-3 lg:p-4">
                         <h3 class="text-sm md:text-lg lg:text-xl font-semibold">Makrab-Malam Keakraban
                         </h3>
@@ -138,7 +138,7 @@
                 <div
                     class="w-48 md:w-56 lg:w-64 bg-white rounded-lg shadow-2xl overflow-hidden border-primary border-2">
                     <img class="w-full h-40 md:h-48 lg:h-56 object-cover" src="{{ asset('images/WhatsApp Image 2025-01-10 at 23.45.58_1169125a.jpg') }}"
-                        alt="Foto Profil">
+                        >
                     <div class="p-2 md:p-3 lg:p-4">
                         <h3 class="text-sm md:text-lg lg:text-xl font-semibold">Makrab-Malam Keakraban
                         </h3>
@@ -149,7 +149,7 @@
                 <div
                     class="w-48 md:w-56 lg:w-64 bg-white rounded-lg shadow-2xl overflow-hidden border-primary border-2">
                     <img class="w-full h-40 md:h-48 lg:h-56 object-cover" src="{{ asset('images/WhatsApp Image 2025-01-10 at 23.45.58_1169125a.jpg') }}"
-                        alt="Foto Profil">
+                        >
                     <div class="p-2 md:p-3 lg:p-4">
                         <h3 class="text-sm md:text-lg lg:text-xl font-semibold">Makrab-Malam Keakraban
                         </h3>
@@ -160,7 +160,7 @@
                 <div
                     class="w-48 md:w-56 lg:w-64 bg-white rounded-lg shadow-2xl overflow-hidden border-primary border-2">
                     <img class="w-full h-40 md:h-48 lg:h-56 object-cover" src="{{ asset('images/WhatsApp Image 2025-01-10 at 23.45.58_1169125a.jpg') }}"
-                        alt="Foto Profil">
+                        >
 
                     <div class="p-2 md:p-3 lg:p-4">
                         <h3 class="text-sm md:text-lg lg:text-xl font-semibold">Makrab-Malam Keakraban
@@ -172,7 +172,7 @@
                 <div
                     class="w-48 md:w-56 lg:w-64 bg-white rounded-lg shadow-2xl overflow-hidden border-primary border-2">
                     <img class="w-full h-40 md:h-48 lg:h-56 object-cover" src="{{ asset('images/WhatsApp Image 2025-01-10 at 23.45.58_1169125a.jpg') }}"
-                        alt="Foto Profil">
+                        >
                     <div class="p-2 md:p-3 lg:p-4">
                         <h3 class="text-sm md:text-lg lg:text-xl font-semibold">Makrab-Malam Keakraban
                         </h3>
