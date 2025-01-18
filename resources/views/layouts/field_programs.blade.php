@@ -38,7 +38,6 @@
                 </div>
             </a>
             <a href="/detail-pi">
-                
                 <div
                     class="w-48 md:w-56 lg:w-64 bg-white rounded-lg shadow-2xl overflow-hidden border-primary border-2">
                     <img class="w-full h-40 md:h-48 lg:h-56 object-cover" src="{{ asset('images/WhatsApp Image 2025-01-10 at 23.45.58_1169125a.jpg') }}"
@@ -49,6 +48,7 @@
                     </div>
                 </div>
             </a>
+            
             <a href="/detail-sosmas">
                 <div
                     class="w-48 md:w-56 lg:w-64 bg-white rounded-lg shadow-2xl overflow-hidden border-primary border-2">
